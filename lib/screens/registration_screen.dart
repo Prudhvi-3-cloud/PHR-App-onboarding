@@ -36,7 +36,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           children: [
             TextField(
               controller: abhaNumberController,
-              decoration: InputDecoration(labelText: 'ABHA Number'),
+              decoration: InputDecoration(labelText: 'Aadhar Number'),
             ),
             TextField(
               controller: abhaAddressController,

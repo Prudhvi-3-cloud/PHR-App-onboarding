@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('PHR App')),
+      appBar: AppBar(title: Text('Personal Health Care(PHR) APP')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => LoginScreen()),
                 );
               },
-              child: Text('Login'),
+              child: Text('Login/Sign in'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => RegistrationScreen()),
                 );
               },
-              child: Text('Create Account'),
+              child: Text('Create ABHA Account'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => ProfileUpdateScreen()),
                 );
               },
-              child: Text('Update Profile'),
+              child: Text('Update Your Profile'),
             ),
             ElevatedButton(
               onPressed: () {

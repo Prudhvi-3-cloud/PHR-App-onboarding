@@ -11,7 +11,7 @@ class ScanShareScreen extends StatelessWidget {
       body: QRView(
         key: qrKey,
         onQRViewCreated: (QRViewController controller) {
-          // Handle QR scanning logic here
+        //enter url here
         },
       ),
     );
